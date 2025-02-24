@@ -44,7 +44,7 @@ The frontend uses **FullCalendar** for displaying events and **axios** for API r
 ### Backend Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/JisuKayl/GoogleCalendar_IntegrationTest.git
    cd server
    ```
 2. Install dependencies:
