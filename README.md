@@ -96,11 +96,17 @@ The frontend uses **FullCalendar** for displaying events and **axios** for API r
 This project is licensed under the MIT License.
 
 
-
 ![image](https://github.com/user-attachments/assets/3fb20f67-fe04-4ae3-ba22-0b14617a2621)
 ![image](https://github.com/user-attachments/assets/1a4180b1-1c63-403e-a8dd-c6be84bcf2b8)
 ![image](https://github.com/user-attachments/assets/67e3f0d9-0283-4a68-ad09-a9265b75cc73)
 ![image](https://github.com/user-attachments/assets/c2fa9807-1838-4600-9fc9-e5f77b1542e2)
 ![image](https://github.com/user-attachments/assets/3e51fe2b-42db-4c1a-8186-5f4120708c1f)
 ![image](https://github.com/user-attachments/assets/388a7215-2495-4fab-9fd2-ee45169c7931)
+
+Proof of Integration
+
+Below is a screenshot of an actual Google Calendar showing events created through this system, proving that the integration works successfully.
+![image](https://github.com/user-attachments/assets/84b3a258-a943-470a-8404-953954427cce)
+
+This confirms that events added in the system are successfully reflected in the user's Google Calendar.
 
