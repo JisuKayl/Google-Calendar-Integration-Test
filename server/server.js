@@ -38,7 +38,7 @@ app.use(
   })
 );
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "build")));
+
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
@@ -76,9 +76,6 @@ passport.use(
         }
 
         refreshToken = refreshToken || null;
-        console.log("Access Token:", accessToken);
-        console.log("Refresh Token:", refreshToken);
-        console.log("Profile:", profile);
 
         const [rows] = await pool.execute(
           "SELECT * FROM users WHERE google_id = ?",
@@ -158,7 +155,7 @@ app.get(
   "/api/auth/google/callback",
   passport.authenticate("google", { failureRedirect: "/" }),
   (req, res) => {
-    res.redirect("/");
+    res.redirect("http://localhost:5173");
   }
 );
 
@@ -299,10 +296,6 @@ app.put(
     }
   }
 );
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "build", "index.html"));
-});
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
