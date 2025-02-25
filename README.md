@@ -3,6 +3,9 @@
 ## Overview
 This project demonstrates how to integrate Google Calendar into a web application with Google account authentication. It allows users to authenticate via Google OAuth 2.0 and interact with their Google Calendar events. The backend is built using **Express.js** with **MySQL**, while the frontend is developed using **React.js** with **FullCalendar** for calendar UI.
 
+## API Configuration
+This project utilizes APIs configured in [Google Cloud Console](https://console.cloud.google.com/).
+
 ## Tech Stack
 - **Frontend**: React.js, Vite, FullCalendar
 - **Backend**: Express.js, MySQL, Google APIs
