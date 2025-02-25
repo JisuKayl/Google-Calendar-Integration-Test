@@ -170,7 +170,9 @@ function App() {
     return (
       <div className="container">
         <h1>Calendar Integration App</h1>
-        <p>Integrate your Google Calendar seamlessly</p>
+        <p>
+          Testing Google Calendar Integration with Google Account Authentication
+        </p>
 
         {isAuthenticated ? (
           <button className="btn" onClick={() => setView("dashboard")}>
