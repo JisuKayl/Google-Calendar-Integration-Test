@@ -58,11 +58,14 @@ The frontend uses **FullCalendar** for displaying events and **axios** for API r
    ```ini
    NODE_ENV=development
    PORT=5000
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASSWORD=mysql
-   DB_NAME=googlecalendar_db
-   SESSION_SECRET=session_secret
+
+   DB_HOST=your_database_host
+   DB_USER=your_database_user
+   DB_PASSWORD=your_database_password
+   DB_NAME=your_database_name
+
+   SESSION_SECRET=your_session_secret
+
    GOOGLE_CLIENT_ID=your_google_client_id
    GOOGLE_CLIENT_SECRET=your_google_client_secret
    ```
